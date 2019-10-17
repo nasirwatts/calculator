@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "javascript calculator",
   "main": "index.js",
-  "homepage": "https:/Braillon7.github.io/javascript_calc",
+  "homepage": "https:/nasirwatts.github.io/calculator",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploy": "gh-pages -d dist"
