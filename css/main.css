@@ -1,0 +1,101 @@
+body{
+    background: url(https://thumbs.dreamstime.com/z/desktop-mix-wooden-office-table-supplies-gadgets-desk-background-view-above-50040707.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Times New Roman, sans-serif;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  h1{
+    color:white;
+    font-size: 3em;
+    -webkit-text-stroke: 2px black;
+     text-shadow: 2px 3px 20px  black;  
+    font-weight:bold; 
+  }
+  
+  #calc{
+    background-color:gray;
+    width:250px;
+    height:350px;
+    border:1px solid black;
+    padding: 20px;
+    border-radius:20px;
+    margin: 50px auto;
+    box-shadow: 0px 0px 3px 15px #ccc;
+    }
+  
+  #display{
+    margin-bottom:20px;
+    height:30px;
+    width: 10em;
+    border:1px solid black;
+    border-radius:5px;
+    box-shadow: 0px 0px 1px black;
+    text-align: right;
+    font: 20px bold;
+    padding:10px;
+  }
+  
+  #keys {
+    width: 41px;
+    height:35px;
+    margin:4px;
+    box-shadow: 0px 0px 2px .5px black;
+    border-radius:2px;
+    outline: none
+  }
+  
+  #equal{
+    width: 92px;
+    height:35px;
+    margin:4px;
+    box-shadow: 0px 0px 2px 1px black;
+    border-radius:2px;
+    outline: none
+  }
+  .footer {
+    bottom: 0;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 20%;
+    min-width: 320px;
+    width: 100%;
+  }
+  
+  .footer-logos {
+    font-size: 20px;
+    margin-top: -1em;
+  }
+  
+  .footer-logos a {
+    text-decoration: none;
+  }
+  
+  .footer-logos i {
+    border: 1px solid;
+    border: 1px solid;
+    border-radius: 30%;
+    color: #b3b3;
+    margin: 1px;
+    padding-top: 5px;
+    text-align: center;
+    vertical-align: -25px;
+  }
+  
+  .footer-logos .genericon {
+    height: 1.6em;
+    width: 1.6em;
+  }
+  
+  .footer-logos .fa {
+    height: 1.2em;  
+    width: 1.75em;
+  }
+  
+  .footer .container {
+    max-width: 480px;
+  }
