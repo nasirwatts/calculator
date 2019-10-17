@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Quick Calculator</title>
+        <link rel="stylesheet" href="css/main.css" type="text/css" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+        <script type="text/javascript" src="js/main.js"></script>
+        
+    </head>
+    <body>
+  <h1> JS Calculator </h1>
+  <h3><i class="fa fa-calculator" aria-hidden="true"></i></h3>
+  <div id='calc'>
+    <form>
+      <input type='text' id='display' disabled>
+      <br>
+      <input type='button' value='C' id='keys' onclick='addtoscreen("c")'>
+      <input type='button' value='CE' id='keys' onclick='backspace()'>
+      <input type='button' value='x^2' id='keys' onclick='power()'>
+      <input type='button' value='+' id='keys' onclick='addtoscreen("+")'>
+      <br>
+      <input type='button' value='9' id='keys' onclick='addtoscreen("9")'>
+      <input type='button' value='8' id='keys' onclick='addtoscreen("8")'>
+      <input type='button' value='7' id='keys' onclick='addtoscreen("7")'>
+      <input type='button' value='-' id='keys' onclick='addtoscreen("-")'>
+      <br>
+      <input type='button' value='6' id='keys' onclick='addtoscreen("6")'>
+      <input type='button' value='5' id='keys' onclick='addtoscreen("5")'>
+      <input type='button' value='4' id='keys' onclick='addtoscreen("4")'>
+      <input type='button' value='*' id='keys' onclick='addtoscreen("*")'>
+      <br>
+      <input type='button' value='3' id='keys' onclick='addtoscreen("3")'>
+      <input type='button' value='2' id='keys' onclick='addtoscreen("2")'>
+      <input type='button' value='1' id='keys' onclick='addtoscreen("1")'>
+      <input type='button' value='/' id='keys' onclick='addtoscreen("/")'>
+      <br>
+      <input type='button' value='0' id='keys' onclick='addtoscreen("0")'>
+      <input type='button' value='.' id='keys' onclick='addtoscreen(".")'>
+      <input type='button' value='=' id='equal' onclick='answer()'>
+
+    </form>
+    <h3>JS Calculator</h3>
+  </div>
+  <script type="text/javascript" src="js/main.js"></script>
+</body>
+ </div>
+ 
+ <footer class="footer">
+  <div class="container-fluid text-center">
+    <div class="footer-text text-muted row">Copyright &copy; <script>document.write(new Date().getFullYear());</script> Developed by Nasir Watts: <a href="https://www.nasirwatts.com" target="_blank">Javascript Calculator</a></div>
+    <div class="footer-logos row">
+      
+  
+    
+  <a
+  href="https://www.linkedin.com/in/nasir-watts-4307ba14a/"
+  target="blank"
+  class="fa-linkedin"
+  >LinkedIn</a
+>
+      <a
+                href="https://www.facebook.com/crackingmycode"
+                target="blank"
+                class="fa-facebook"
+                >Facebook</a
+              >
+              <a href="https://twitter.com/nasir_watts" 
+              target="blank"
+              class="fa-twitter"
+                >Twitter</a
+              >
+    </div>
+  </div>
+</footer>
+</html>

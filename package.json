@@ -1,0 +1,16 @@
+{
+  "name": "javascript_calc",
+  "version": "1.0.0",
+  "description": "javascript calculator",
+  "main": "index.js",
+  "homepage": "https:/Braillon7.github.io/javascript_calc",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Nasir",
+  "license": "MIT",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
